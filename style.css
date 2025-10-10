@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #82246c, #4a148c);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(241, 225, 3, 0.986);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #06f1dd, #03ff14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #fafa03;
+  text-shadow: 0 0 4px #00ffff;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 18px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cell {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.cell:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00e5ff;
+}
+
+.cell.animated {
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  70% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.winning {
+  background: linear-gradient(45deg, #76ff03, #00e5ff);
+  color: #000;
+  box-shadow: 0 0 25px #00e5ff;
+  animation: glow 1.2s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #00e5ff; }
+  to { box-shadow: 0 0 30px #76ff03; }
+}
+
+.message {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+button {
+  background: linear-gradient(90deg, #1b63c7b7, #03ffeefd);
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #ff002f;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff0374, #ff0040);
+  box-shadow: 0 0 10px #cdff03;
+}
