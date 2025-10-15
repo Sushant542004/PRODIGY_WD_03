@@ -1,11 +1,4 @@
-Sure! Since the link you shared (`http://127.0.0.1:5500/index.html`) is a **local development URL**, I can’t access your actual project files — but I can still create a **professional README.md** template for your website project.
-
-Please confirm what your project is (e.g., *portfolio website*, *landing page*, *AI project*, *internship task*, etc.).
-For now, here’s a **generic professional README.md** for a personal web project — you can edit the placeholders as needed 👇
-
 ---
-
-````markdown
 # 🌐 Personal Portfolio Website
 
 This is a responsive and interactive **portfolio website** built using **HTML, CSS, and JavaScript** to showcase my projects, skills, and achievements.  
@@ -52,7 +45,7 @@ It serves as my digital identity and a platform to connect with potential employ
 │   ├── images/
 │   └── icons/
 └── README.md
-````
+```
 
 ---
 
@@ -81,13 +74,4 @@ This project is licensed under the [MIT License](./LICENSE) — feel free to use
 ---
 
 ⭐ *If you like this project, consider giving it a star on GitHub!*
-
-```
-
----
-
-If you tell me **what the project actually is** (for example, “Stopwatch Web App”, “Landing Page”, “Portfolio”, or “Internship Task 3”), I’ll make a **customized README.md** for that exact project — with the right title, description, and tech stack.  
-
-Would you like me to tailor it for your **PRODIGY_WD_03** project (from your GitHub)?
-```
 
