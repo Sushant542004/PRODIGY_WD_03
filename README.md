@@ -1,77 +1,71 @@
 ---
-# 🌐 Personal Portfolio Website
 
-This is a responsive and interactive **portfolio website** built using **HTML, CSS, and JavaScript** to showcase my projects, skills, and achievements.  
-It serves as my digital identity and a platform to connect with potential employers, collaborators, and tech enthusiasts.
+# ✨ Tic Tac Toe 🎮
+
+A simple yet stylish **Tic Tac Toe** game built using **HTML**, **CSS**, and **JavaScript** — created as part of the *Prodigy Infotech Web Development Internship (Task 3)*.
+
+![Tic Tac Toe Screenshot](https://github.com/your-username/tic-tac-toe-prodigy-task3/assets/your-image-id) <!-- Replace with actual image link if available -->
 
 ---
 
 ## 🚀 Features
 
-- 🎨 **Modern & Responsive Design** – Fully optimized for all screen sizes.  
-- ⚡ **Interactive Animations** – Smooth transitions and hover effects using CSS and JS.  
-- 💼 **Featured Projects Section** – Highlights my key projects with live links.  
-- 🧠 **Skills Showcase** – Displays technical skills with attractive icons.  
-- 📞 **Contact Section** – Easy access to my social and email links.  
+* 🎯 **Interactive gameplay** between Player X and Player O
+* 🧠 **Smart turn switching** and **win detection** logic
+* 🏆 **Scoreboard tracking** for X wins, O wins, and Draws
+* ✨ **Smooth animations** and glowing effects for winning moves
+* 🔁 **Reset button** to restart the game anytime
+* 💅 **Modern glassmorphism UI** with gradient backgrounds
 
 ---
 
-## 🛠️ Technologies Used
+## 🧩 Tech Stack
 
-- **HTML5** – Structure  
-- **CSS3** – Styling & Layout  
-- **JavaScript (ES6)** – Interactivity  
-- **Font Awesome** – Icons  
-- **Google Fonts** – Typography  
+* **HTML5** – Game structure
+* **CSS3** – Styling, animations, and layout
+* **JavaScript (ES6)** – Game logic and interactivity
 
 ---
 
-## 📸 Preview
+## 🎮 How to Play
 
-![Website Screenshot](./assets/screenshot.png)
-
-*(Replace with an actual screenshot of your website)*
+1. Open the [live demo](#) or clone the repository.
+2. Player **X** starts the game.
+3. Players take turns clicking empty cells.
+4. The first to align three symbols (horizontally, vertically, or diagonally) wins!
+5. Click the **Restart Game** button to play again.
 
 ---
 
-## 🧩 Folder Structure
+## 📂 Project Structure
 
-```bash
-.
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
+```
+📁 Tic-Tac-Toe/
+│
+├── index.html        # Main game structure
+├── style.css         # Game styling and animations
+└── script.js         # Game logic and interactivity
 ```
 
 ---
 
-## 🔗 Live Demo
+## 🖥️ Live Demo
 
-👉 [Click Here to Visit](https://yourusername.github.io/your-repo-name/)
-
-*(Update the link after publishing on GitHub Pages)*
+🔗 [View on GitHub Pages](#)
+*(Replace the link once you deploy the project!)*
 
 ---
 
-## 📬 Contact
+## 🧑‍💻 Author
 
-👤 **Your Name**
+**Your Name**
+🌐 [GitHub Profile](https://github.com/your-username)
 📧 [your.email@example.com](mailto:your.email@example.com)
-🌐 [Portfolio Website](https://yourusername.github.io)
-💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-💻 [GitHub](https://github.com/yourusername)
 
 ---
 
-## 🏷️ License
+## 📜 License
 
-This project is licensed under the [MIT License](./LICENSE) — feel free to use and modify it for personal or educational purposes.
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-⭐ *If you like this project, consider giving it a star on GitHub!*
-
