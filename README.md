@@ -4,7 +4,8 @@
 
 A simple yet stylish **Tic Tac Toe** game built using **HTML**, **CSS**, and **JavaScript** — created as part of the *Prodigy Infotech Web Development Internship (Task 3)*.
 
-![Tic Tac Toe Screenshot](https://github.com/your-username/tic-tac-toe-prodigy-task3/assets/your-image-id) <!-- Replace with actual image link if available -->
+<img width="778" height="851" alt="image" src="https://github.com/user-attachments/assets/08815bac-98b7-472a-9fef-131c41d59222" />
+
 
 ---
 
@@ -29,7 +30,7 @@ A simple yet stylish **Tic Tac Toe** game built using **HTML**, **CSS**, and **J
 
 ## 🎮 How to Play
 
-1. Open the [live demo](#) or clone the repository.
+1. Open the [live demo](https://sushant542004.github.io/PRODIGY_WD_03/) or clone the repository.
 2. Player **X** starts the game.
 3. Players take turns clicking empty cells.
 4. The first to align three symbols (horizontally, vertically, or diagonally) wins!
@@ -51,7 +52,7 @@ A simple yet stylish **Tic Tac Toe** game built using **HTML**, **CSS**, and **J
 
 ## 🖥️ Live Demo
 
-🔗 [View on GitHub Pages](#)
+🔗 [View on GitHub Pages](https://sushant542004.github.io/PRODIGY_WD_03/)
 *(Replace the link once you deploy the project!)*
 
 ---
